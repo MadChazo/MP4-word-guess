@@ -552,7 +552,7 @@ function wordGuess(event) {
       }
     }
   } else {
-    console.log("incorrect");
+    timeLeft -= 3;
   }
   if (!currentBlank.includes("_")) {
     setTimeout(function () {
